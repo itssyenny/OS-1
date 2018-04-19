@@ -6,7 +6,7 @@ The kernel's primary functions are to :
   * Manage the computer's hardware and resources, such as CPU, main memory, I/O devices.
   * Allow applications to run and use these resources.
   
-On this project, I use Oracle VM VirtualBox to implement all my additional system calls. You can directly download it at https://www.virtualbox.org/wiki/Downloads .
+On this project, I use Oracle VM VirtualBox to implement all my additional system calls. You can directly download it at https://www.virtualbox.org/wiki/Downloads . <br />
 Also, don't forget to download the Ubuntu 12.04.5 32 bits LTS here at http://tw.archive.ubuntu.com/ubuntu-cd/12.04.5/ubuntu-12.04.5-desktop-i386.iso .
 
 Steps to build Linux Kernel :
