@@ -24,12 +24,11 @@ Steps to build Linux Kernel :
   11. $ sudo make modules_install
   12. $ sudo make install
   13. $ sudo vim /etc/default/grub
-      > Add "#" to comment the following 2 lines :
-      > #GRUB_HIDDEN_TIMEOUT=0
-      > #GRUB_HIDDEN_TIMEOUT_QUIET=true
+      > Add "#" to comment the following 2 lines : <br />
+      > #GRUB_HIDDEN_TIMEOUT=0 <br />
+      > #GRUB_HIDDEN_TIMEOUT_QUIET=true <br />
   14. $ sudo update-grub2
   15. $ sudo shutdown -r now
-  
 
 
 # WHAT IS SYSTEM CALL?
@@ -44,7 +43,7 @@ System Calls can be grouped into 5 major categories :
   
 # ONCE A SYSTEM CALL OCCURS
 
-When you call the system call, the processor is switched automatically to the system execution mode(privileged execution mode). And, the __key parts of the current thread context (e.g. the program counter and the stack pointer) are SAVED__.
+When you call the system call, the processor is switched automatically to the system execution mode(privileged execution mode). And, the __key parts of the current thread context (e.g. the program counter and the stack pointer) are SAVED__. <br />
 Then, there are changes in the thread context, such as :
   * __Program counter__ is set to a fixed memory address (within the kernel's address space) by the hardware.
   * __Stack pointer__ is pointed at the top of a stack in the kernel's address space.
